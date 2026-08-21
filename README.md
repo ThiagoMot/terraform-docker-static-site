@@ -30,7 +30,7 @@ Ambiente de desenvolvimento local totalmente automatizado com **Terraform** e **
 1. **Clone o repositório:**
 ```bash
    git clone https://github.com/ThiagoMot/terraform-docker-static-site.git
-   cd meu-projeto-ultimate/terraform
+   cd terraform-docker-static-site/terraform
 ```
 
 2. **Inicialize os plugins do Terraform:**

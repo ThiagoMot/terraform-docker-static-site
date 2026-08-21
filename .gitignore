@@ -1,0 +1,13 @@
+# Arquivos de estado e cache do Terraform
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+
+# Pasta de plugins instalados pelo terraform init
+.terraform/
+.terraform.lock.hcl
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db

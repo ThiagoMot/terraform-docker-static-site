@@ -29,24 +29,24 @@ Ambiente de desenvolvimento local totalmente automatizado com **Terraform** e **
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/SEU-USUARIO/meu-projeto-ultimate.git](https://github.com/SEU-USUARIO/meu-projeto-ultimate.git)
+   git clone https://github.com/ThiagoMot/terraform-docker-static-site.git
    cd meu-projeto-ultimate/terraform
 
 2. comando para iniciar o terraform
 
 **Inicialize os plugins do Terraform**
-
+```bash
 terraform init
 
 **Provisione o ambiente:**
-
+```bash
 terraform apply -auto-approve
 
 **Acesse no navegador:**
-
+```bash
 Abra http://localhost:8080
 
 
 **Encerrar e destruir os recursos**
-
+```bash
 terraform destroy -auto-approve
